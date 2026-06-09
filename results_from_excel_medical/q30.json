@@ -1,0 +1,64 @@
+{
+  "original_question": "MHC II类分子主要作用对象是什么细胞？",
+  "plan": [
+    "确定MHC II类分子的主要功能",
+    "识别MHC II类分子主要作用的细胞类型"
+  ],
+  "past_exp": [
+    {
+      "original_question": "MHC II类分子主要作用对象是什么细胞？",
+      "plan": [
+        "确定MHC II类分子的主要功能",
+        "识别MHC II类分子主要作用的细胞类型"
+      ],
+      "step_question": [
+        {
+          "task": "任务类型: 检索\n查询: MHC II类分子的主要功能是什么？",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        },
+        {
+          "task": "任务类型: 处理\n查询: MHC II类分子的主要功能是递呈外源性抗原肽给CD4+ T细胞，因此其主要作用的细胞类型应与CD4+ T细胞相关。",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        }
+      ],
+      "step_output": [
+        {
+          "answer": "MHC II类分子的主要功能是递呈外源性抗原肽给CD4+ T细胞。",
+          "reasoning": "RAG生成",
+          "rating": 1.0,
+          "success": "yes"
+        },
+        {
+          "answer": "CD4+ T细胞。",
+          "analysis": "",
+          "success": "yes",
+          "rating": 1.0
+        }
+      ],
+      "step_docs_ids": [
+        [
+          1477367151718948864,
+          1477367151718948864,
+          1477367151718948864
+        ]
+      ],
+      "step_notes": [
+        [
+          "[# 笔记\n- **MHC II类分子的功能**: 递呈外源性抗原肽给CD4+ T细胞。抗原肽与MHC-II类分子结合后形成复合物，表达于细胞表面供CD4+ T细胞识别。\n  - 证据: \"抗原肽-MHC-II类分子复合物随MIIC向细胞表面移行，通过胞吐作用(exocytosis)而表达于细胞表面，供CD4+T细胞识别，完成外源性抗原肽递呈过程。\"\n  - 原因: 段落明确描述了MHC-II类分子参与外源性抗原递呈的过程。]",
+          "[本文档中无相关信息。]",
+          "[- MHC-II类分子的主要功能是参与抗原递呈加工（证据：段落中提到“MHC是如何发现的？在参与抗原递呈加工中有哪些作用?”）。  \n- MHC-II类分子还参与淋巴细胞的阳性选择或阴性选择（证据：段落中提到“MHC-I类和II类分子是如何参与淋巴细胞阳性选择或阴性选择的?”）。]"
+        ]
+      ],
+      "plan_summary": {
+        "output": "最终答案: CD4+ T细胞, 输出: 成功, 分数: 1.0",
+        "score": 1.0
+      },
+      "stop": true
+    }
+  ],
+  "final_answer": ""
+}

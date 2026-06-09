@@ -1,0 +1,86 @@
+{
+  "original_question": "CHF是什么？",
+  "plan": [
+    "CHF是什么的缩写或简称？",
+    "CHF在不同领域（如医学、金融、地理等）中的含义是什么？",
+    "确定CHF在特定上下文中最常见的含义。"
+  ],
+  "past_exp": [
+    {
+      "original_question": "CHF是什么？",
+      "plan": [
+        "CHF是什么的缩写或简称？",
+        "CHF在不同领域（如医学、金融、地理等）中的含义是什么？",
+        "确定CHF在特定上下文中最常见的含义。"
+      ],
+      "step_question": [
+        {
+          "task": "任务类型: 检索\n查询: CHF是什么的缩写或简称？",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        },
+        {
+          "task": "任务类型: 检索\n查询: CHF在不同领域（如医学、金融、地理等）中的含义是什么？已知在医学领域CHF代表慢性心力衰竭（chronic heart failure），请检索其他领域如金融、地理等中的含义。",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        },
+        {
+          "task": "任务类型: 处理\n查询: 根据已知信息，CHF在医学领域是慢性心力衰竭（chronic heart failure）的缩写，金融领域可能指瑞士法郎货币代码，地理领域或涉及瑞士相关缩写。请比较这些含义的出现频率，确定CHF在特定上下文中最常见的含义。",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        }
+      ],
+      "step_output": [
+        {
+          "answer": "CHF是慢性心力衰竭（chronic heart failure）的缩写或简称。",
+          "reasoning": "RAG生成",
+          "rating": 1.0,
+          "success": "yes"
+        },
+        {
+          "answer": "根据检索结果，提供的文档中未包含与CHF在其他领域（如金融、地理等）中含义相关的信息。建议您查阅专业词典、百科或相关领域的权威资料以获取准确解释。  \n\n（已知医学领域CHF为慢性心力衰竭，金融中可能指瑞士法郎货币代码，地理中或涉及瑞士相关缩写，但需进一步验证。）",
+          "reasoning": "RAG生成",
+          "rating": 1.0,
+          "success": "yes"
+        },
+        {
+          "answer": "Answer: CHF在医学领域最常见指慢性心力衰竭（chronic heart failure）。",
+          "analysis": "",
+          "success": "yes",
+          "rating": 1.0
+        }
+      ],
+      "step_docs_ids": [
+        [
+          1474947773955358720
+        ],
+        [
+          1474947773955358720,
+          1477382223100653568,
+          1477382223100653568,
+          1474947773955358720
+        ]
+      ],
+      "step_notes": [
+        [
+          "[# 笔记\n- CHF是慢性心力衰竭（chronic heart failure）的缩写或简称。证据：段落中提到“慢性心力衰竭（chronic heart failure，CHF，简称慢性心衰）”。]"
+        ],
+        [
+          "[本文档中无相关信息。]",
+          "[本文档中无相关信息。]",
+          "[本文档中无相关信息。]",
+          "[本文档中无相关信息。]"
+        ]
+      ],
+      "plan_summary": {
+        "output": "最终答案: CHF是慢性心力衰竭（chronic heart failure）的缩写或简称, 输出: 成功, 分数: 1.0",
+        "score": 1.0
+      },
+      "stop": true
+    }
+  ],
+  "final_answer": ""
+}

@@ -1,0 +1,52 @@
+{
+  "original_question": "MHC I类分子主要提呈哪类抗原？",
+  "plan": [
+    "确定MHC I类分子主要提呈的抗原类型。"
+  ],
+  "past_exp": [
+    {
+      "original_question": "MHC I类分子主要提呈哪类抗原？",
+      "plan": [
+        "确定MHC I类分子主要提呈的抗原类型。"
+      ],
+      "step_question": [
+        {
+          "task": "任务类型: 检索\n查询: MHC I类分子主要提呈的抗原类型是什么？",
+          "type": "normal",
+          "success": "yes",
+          "reason": "WhaleLLM generated step"
+        }
+      ],
+      "step_output": [
+        {
+          "answer": "MHC I类分子主要提呈内源性抗原。",
+          "reasoning": "RAG生成",
+          "rating": 1.0,
+          "success": "yes"
+        }
+      ],
+      "step_docs_ids": [
+        [
+          1477367151718948864,
+          1477367151718948864,
+          1477367151718948864,
+          1477367151718948864
+        ]
+      ],
+      "step_notes": [
+        [
+          "[# 笔记\n- MHC-I类分子主要提呈内源性抗原肽给CD8+T细胞。证据：文中提到“MHC-I类分子与ER上的TAP相连，再与经TAP转运的抗原肽结合，形成抗原肽-MHC-I类分子复合物...递呈给CD8+T细胞”。这表明MHC-I类分子处理的是通过TAP转运的内源性抗原肽。]",
+          "[本文档中无相关信息。]",
+          "[- MHC-I类分子主要参与内源性抗原的加工和递呈。证据：段落中提到“MHC-I类分子和Ⅱ类分子分别参与对内源性和外源性抗原的加工和递呈”。]",
+          "[- MHC-I类分子主要提呈内源性抗原，如肿瘤细胞合成的蛋白以及胞内某些自身正常成分等。证据：段落中提到“内源性抗原在胞内加工后形成的抗原肽则与MHC-I类分子结合，递呈给$mathrm{CD}8^{+}mathrm{T}$ 细胞”。]"
+        ]
+      ],
+      "plan_summary": {
+        "output": "最终答案: MHC I类分子主要提呈内源性抗原, 输出: 成功, 分数: 1.0",
+        "score": 1.0
+      },
+      "stop": true
+    }
+  ],
+  "final_answer": ""
+}
